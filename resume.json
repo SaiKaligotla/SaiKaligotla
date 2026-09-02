@@ -1,0 +1,303 @@
+{
+  "_comment": "SINGLE SOURCE OF TRUTH. Edit THIS file to update your resume. GitHub Actions auto-regenerates README.md (see .github/workflows/update-profile.yml) and auto-pulls your public repos for the Projects section. Never hand-edit README.md.",
+
+  "profile": {
+    "name": "Sai Kaligotla",
+    "title": "SOC Analyst (L1) · Threat Detection & Incident Response",
+    "location": "Hyderabad, India",
+    "tagline": "SOC Analyst (L1) with hands-on detection & incident response — a self-built Wazuh SOC home lab, LetsDefend investigations, and log-forensics / phishing simulation work for Deloitte and Mastercard.",
+    "summary": "SOC Analyst (L1) with hands-on detection and incident response experience: a self-built SOC home lab (Kali attacker, Ubuntu target, Wazuh SIEM/EDR) where I simulate attacks, triage detections, and extract IoCs from raw telemetry; 4 LetsDefend investigations with 3 confirmed threats, verified via OSINT (VirusTotal, ANY.RUN, AbuseIPDB); and log-forensics and phishing-simulation work for Deloitte and Mastercard. Currently hardening a live production environment at SansBornes Aerospace — 20+ endpoints patched monthly, firewall and Wi-Fi security, role-based access control. Six years designing user systems informs a human-risk perspective: why phishing succeeds and how usable security prevents it. Immediate joiner.",
+    "contact": {
+      "email": "sarathsai94@gmail.com",
+      "phone": "+91 74163 14886",
+      "github": "https://github.com/SaiKaligotla",
+      "github_username": "SaiKaligotla",
+      "linkedin": "https://www.linkedin.com/in/saikaligotla/",
+      "portfolio": ""
+    }
+  },
+
+  "experience": {
+    "entries": [
+      {
+        "company": "SansBornes Aerospace Pvt. Ltd.",
+        "role": "IT Administrator & Design Consultant",
+        "location": "Bengaluru, India",
+        "start": "Mar 2025",
+        "end": "Present",
+        "bullets": [
+          "Administer IT for a 15-person aerospace engineering firm: create and deprovision user accounts, enforce role-based access control and least privilege, and maintain email and web servers supporting 20+ laptops and shared drives.",
+          "Manage the endpoint and patch lifecycle: monthly security patching plus bi-weekly system updates across 20+ endpoints, with software, hardware, and network troubleshooting as primary IT support.",
+          "Harden the perimeter — configure company Wi-Fi and internal firewall rules — and apply access changes on every onboarding, offboarding, and role change.",
+          "Deliver and maintain the company web platform with secure workflows and WCAG 2.1 AA accessibility; document access controls and change records for audit continuity.",
+          "Guide engineering and design teams on compliance standards, usability guidelines, and secure system design principles during product delivery."
+        ]
+      },
+      {
+        "company": "Milathi Technologies · GoCodeDesign",
+        "role": "UI/UX Product Designer — Behavioral Research, Systems & Compliance",
+        "location": "Hyderabad, India",
+        "start": "May 2024",
+        "end": "Feb 2025",
+        "bullets": [
+          "Founded Milathi's design language and built the company-wide design system — reusable components, standards, and documentation used across app, web, and marketing — and led the product from concept to launch.",
+          "Managed 3 concurrent product projects at GoCodeDesign (finance, medical, e-commerce apps), delivering on time and in scope while enforcing consistent standards across teams.",
+          "Ran user research and usability testing to expose where users misread warnings, skip steps, or bypass intended flows — the failure modes behind phishing clicks and insider missteps.",
+          "Partnered with developers end-to-end to ship production-ready, WCAG 2.1 AA accessible interfaces and governed design consistency across all product surfaces."
+        ]
+      },
+      {
+        "company": "Tim Hortons",
+        "role": "Experience Design Associate — Human Factors & Operational Workflows",
+        "location": "Ontario, Canada",
+        "start": "Jul 2022",
+        "end": "Feb 2024",
+        "bullets": [
+          "Observed and analyzed real user behavior on the floor, documenting how customers and crew work around intended processes under time pressure — the same bypass behavior behind security-control and policy violations.",
+          "Redesigned service workflows with store leadership to remove error-prone steps, adding visual cues and verification touchpoints that reduced ordering errors.",
+          "Applied human-centered analysis to daily operations and proposed process improvements to leadership that shaped future service design standards."
+        ]
+      },
+      {
+        "company": "Ushakiron Movies Pvt. Ltd. · EGEE Pallet Pvt. Ltd.",
+        "role": "Product & Web Designer — Delivery Discipline & Cross-Team Coordination",
+        "location": "Hyderabad, India",
+        "start": "Dec 2020",
+        "end": "Jun 2022",
+        "bullets": [
+          "Delivered 30+ multidisciplinary projects (branding, web, print) at EGEE Pallet with 100% on-time completion and strong client feedback; designed and launched website layouts and UI components.",
+          "Introduced a new design workflow and file-management system that reduced project turnaround and improved handoff quality between content, marketing, and production teams.",
+          "Ran market and user research with marketing leadership at Ushakiron to align product and campaign direction with audience insight, and delivered cohesive brand assets across print, web, and digital."
+        ]
+      },
+      {
+        "company": "Upwork — International Clients",
+        "role": "Product Designer (Freelance)",
+        "location": "Remote",
+        "start": "May 2017",
+        "end": "Jan 2020",
+        "bullets": [
+          "Delivered 50+ cross-disciplinary projects (brand identity, illustration, web) for international clients with a 4.9/5 average rating and 98% satisfaction — structured discovery, requirements alignment, delivery, and follow-up.",
+          "Built brand identity systems and websites from brief to launch; standardized workflows across Adobe Creative Suite, Figma, and Webflow for consistent, repeatable delivery."
+        ]
+      },
+      {
+        "company": "Mind Map Consulting (Meta, Microsoft, Wipro) · Vaaraahi Chalana Chitram · Ad.FX",
+        "role": "E-Learning Animator · Production Designer · Animation Intern",
+        "location": "Hyderabad, India",
+        "start": "Jun 2016",
+        "end": "Feb 2017",
+        "bullets": [
+          "Produced end-to-end animated learning modules and interactive guides for global corporate clients (Meta, Microsoft, Wipro), translating complex technical content into clear, structured visual narratives — directly applicable to security-awareness training design.",
+          "Contributed storyboards, concept art, and 3D animation to feature-film and commercial pipelines, working directly with directors, writers, and client teams to deliver against briefs."
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "entries": [
+      {
+        "degree": "MBA, Marketing",
+        "school": "Andhra University, Visakhapatnam, India",
+        "years": "Expected 2027"
+      },
+      {
+        "degree": "Post-Graduate Certificates — Visual Effects & Editing (2020) · 3D Animation & Character Design (2019)",
+        "school": "Fanshawe College, London, Canada",
+        "years": "2018 – 2020"
+      },
+      {
+        "degree": "Bachelor of Fine Arts (B.F.A.), Animation",
+        "school": "Jawaharlal Nehru Architecture & Fine Arts University (JNAFAU), Hyderabad, India",
+        "years": "2012 – 2016"
+      }
+    ]
+  },
+
+  "certifications": [
+    "Google Cybersecurity Professional Certificate — Coursera (2026)",
+    "LetsDefend SOC Analyst — 30+ alerts investigated · 4 incident case files",
+    "TryHackMe — SOC Level 1",
+    "Mastercard Cybersecurity Job Simulation — Forage (2026)",
+    "Deloitte Cyber Job Simulation — Forage (2026)"
+  ],
+
+  "additional_training": [
+    "Google Data Analytics — Coursera (2023)",
+    "Google Cybersecurity coursework: Play It Safe: Manage Security Risks · Assets, Threats, and Vulnerabilities · Sound the Alarm: Detection and Response"
+  ],
+
+  "details": {
+    "target_roles": "SOC Analyst L1 · Security Analyst · Trust & Safety Analyst",
+    "availability": "Immediate joiner",
+    "languages": "English (full professional) · Telugu (native) · Hindi (limited working)"
+  },
+
+  "skills": {
+    "Security Operations": [
+      "SOC analysis", "alert triage & escalation", "threat hunting", "phishing investigation",
+      "incident response", "vulnerability assessment", "multi-source log correlation",
+      "MITRE ATT&CK mapping", "SIEM"
+    ],
+    "Incident Response & Containment": [
+      "EDR host isolation", "credential response & session revocation", "perimeter IP blocking",
+      "false-positive elimination", "evidence-based verdicts", "post-incident reporting", "IoC documentation"
+    ],
+    "Threat Intelligence & OSINT": [
+      "VirusTotal", "ANY.RUN sandbox", "Hybrid Analysis", "URLScan", "URLhaus", "AbuseIPDB",
+      "phishing & IoC enrichment", "indicator classification"
+    ],
+    "Network & Systems": [
+      "TCP/IP", "firewall & Wi-Fi security", "Windows & Linux administration", "Active Directory",
+      "patch management", "VirtualBox networking", "identity & access management (RBAC, least privilege, MFA)"
+    ],
+    "Frameworks & Compliance": [
+      "NIST CSF", "NIST RMF", "PCI DSS", "GDPR", "SOC 2", "WCAG 2.1 AA accessibility", "audit documentation"
+    ],
+    "Tools": [
+      "Wazuh (SIEM/EDR)", "Kali Linux", "Hydra", "Nmap", "LetsDefend", "Splunk (training)",
+      "Wireshark (training)", "Bash", "SQL", "Git/GitHub", "Google Workspace admin"
+    ],
+    "Human Risk & Analytics": [
+      "UEBA fundamentals", "insider threat & phishing behavior analysis", "security awareness training design",
+      "user research & usability testing", "dashboard usability / alert-fatigue reduction"
+    ]
+  },
+
+  "benchmark": {
+    "_note": "Radar chart comparing my current level to a senior SOC Analyst benchmark. Each axis is a core skill area; 'me' is my current level and 'target' is the senior professional benchmark (0-100). Editable — update the numbers and the chart regenerates automatically.",
+    "title": "Skills vs. senior SOC Analyst benchmark",
+    "me_label": "Me",
+    "target_label": "Senior benchmark",
+    "axes": [
+      {"skill": "SOC Monitoring & Triage", "me": 78, "target": 92},
+      {"skill": "Incident Response",       "me": 72, "target": 90},
+      {"skill": "SIEM & Detection",        "me": 82, "target": 92},
+      {"skill": "Threat Intel & OSINT",    "me": 76, "target": 88},
+      {"skill": "Log Analysis & Forensics","me": 74, "target": 90},
+      {"skill": "Network & Systems",       "me": 66, "target": 86},
+      {"skill": "Security Frameworks",     "me": 74, "target": 88},
+      {"skill": "Risk & Compliance Audit", "me": 68, "target": 86},
+      {"skill": "Python & Automation",     "me": 60, "target": 84},
+      {"skill": "Human Risk & Awareness",  "me": 82, "target": 86}
+    ]
+  },
+
+  "projects": {
+    "_note": "Auto-pulled from your public GitHub repos. Repos with a matching entry below render with a curated title, meta line and detailed bullets; any new repo you push without a curated entry still appears automatically using its GitHub description. Add repo names to 'exclude' to hide them.",
+    "exclude": [],
+    "curated": {
+      "SOC-Home-Lab-Wazuh": {
+        "title": "SOC Home Lab — Threat Simulation, Detection & Incident Response (Wazuh)",
+        "meta": "Personal lab (VirtualBox: Kali + Ubuntu + Wazuh) · 2026",
+        "bullets": [
+          "Architected a fully isolated 3-VM SOC lab on VirtualBox (32 GB / 8-core host): custom NAT network (10.0.2.0/24) with localhost-only port forwarding (127.0.0.1:8443 → 10.0.2.7:443) so the SIEM never touches the production network.",
+          "Deployed Ubuntu Server 22.04 LTS target (OpenSSH + Wazuh agent) and verified the live telemetry pipeline into the Wazuh manager / indexer / dashboard stack.",
+          "Executed Hydra SSH brute force with a control vs. escalation method: validated a single-failure baseline (correctly stayed under the correlation threshold), then ran a 4-thread dictionary attack (fasttrack) — 262 login attempts in under 15 seconds.",
+          "Triaged in the Wazuh dashboard as a SOC analyst: scoped the authentication event-volume spike, distinguished atomic rule 5710 (L5) from correlated rule 5712 (L10), and mapped detections to MITRE ATT&CK T1110 (Brute Force).",
+          "Extracted IoCs from raw alert JSON (data.srcip, data.dstuser, system_name, rule.mitre.id) and reconstructed the full incident narrative — attacker, target account, affected endpoint, and technique — for escalation and remediation.",
+          "Documented the complete lifecycle — infrastructure, attack simulation, detection analysis, and key takeaways — with screenshots, in a public write-up."
+        ]
+      },
+      "SOC-Incident-Response-Case-Files": {
+        "title": "SOC Incident Response Case Files (LetsDefend)",
+        "meta": "4 investigations in an enterprise SOC simulation · 2026",
+        "bullets": [
+          "Investigated 4 live-simulated alerts in LetsDefend's enterprise SOC environment — 3 true positives, 1 false positive — each documented as an Official Incident Report.",
+          "Phishing (EventID 257 / SOC282): deceptive email delivering AsyncRAT — pivoted email gateway, proxy, and endpoint logs; verified indicators via OSINT (VirusTotal, ANY.RUN, URLScan, URLhaus).",
+          "Endpoint (EventID 44 / SOC113): suspicious hh.exe usage (LOLBin, T1218.001) — reconstructed process lineage and ruled it a false positive, documenting the investigative misstep honestly.",
+          "Network & identity (EventID 225 / SOC257 unauthorized-country VPN; EventID 303 / SOC325 unauthorized cloud region): confirmed credential abuse and brute-force attempts, both blocked by existing MFA/firewall controls; documented containment (credential resets, session revocation, IP blocking, EDR isolation).",
+          "Applied a repeatable 7-step IR methodology — alert triage, multi-source log correlation (proxy, firewall, VPN, email, EDR, authentication), hypothesis-driven analysis, containment, lesson learned, remediation, and a MITRE ATT&CK appendix (T1566, T1204, T1218.001, T1133, T1595, T1078, T1621)."
+        ]
+      },
+      "Deloitte-Intranet-Data-Breach-Analysis": {
+        "title": "Incident Investigation: Web Log Forensics & Data Exfiltration (Deloitte)",
+        "meta": "Deloitte Cyber Job Simulation (Forage) · 2026",
+        "bullets": [
+          "Conducted forensic analysis on intranet HTTP web-request logs to confirm a suspected data leak; traced an automated exfiltration script polling internal APIs every 60 minutes from one compromised user account and static internal IP.",
+          "Isolated Indicators of Compromise (IoCs) — compromised user ID, source IP, and query pattern — and recommended immediate credential revocation, enforced MFA, and a SIEM alert rule on anomalous API polling.",
+          "Delivered the full detection → analysis → containment → recommendation chain as a handover-ready incident report with a clear remediation timeline."
+        ]
+      },
+      "Mastercard-Cybersecurity-Simulation-Forage": {
+        "title": "Enterprise Phishing Simulation & Human-Risk Analysis (Mastercard)",
+        "meta": "Mastercard Cybersecurity Job Simulation (Forage) · 2026",
+        "bullets": [
+          "Designed and executed a simulated phishing campaign targeting internal credentials across 7 corporate departments to benchmark social-engineering susceptibility.",
+          "Aggregated and ranked click and credential-submission metrics, identifying critical human-risk exposure in HR (75% compromise rate) and Marketing (38% compromise rate).",
+          "Built and delivered a targeted remediation training deck — hyperlink inspection, sender/source verification, out-of-band confirmation — addressing the exact click vectors exposed, with repeat-testing follow-ups to measure improvement."
+        ]
+      },
+      "botium-toys-security-audit": {
+        "title": "Security Audit & Compliance Assessment (NIST CSF, PCI DSS, GDPR)",
+        "meta": "Botium Toys · Google Cybersecurity Labs · 2026",
+        "bullets": [
+          "Audited 25+ controls across assets, access control, backup, and incident planning against the NIST CSF; produced a risk-graded control assessment (least privilege, IDS, encryption, backups, DR, separation of duties, centralized password management).",
+          "Mapped each gap to PCI DSS cardholder-data requirements, GDPR privacy obligations (72-hour breach notification, data classification), and SOC 1/2 control expectations.",
+          "Delivered prioritized remediation recommendations and a revised asset inventory to close the highest-risk findings first."
+        ]
+      },
+      "SQL-Security-Investigation-Log-Analysis-Asset-Tracking": {
+        "title": "SOC Lab: SQL Security Investigation — Log Analysis & Asset Tracking",
+        "meta": "Google Cybersecurity Labs · 2026",
+        "bullets": [
+          "Queried the log_in_attempts database to isolate failed logins after 18:00 — the after-hours pattern consistent with brute force and password-spray attacks.",
+          "Built an incident-response timeline by correlating login activity across the suspected compromise window (May 8–9), mapping authentication attempts by geographic location using LIKE filters.",
+          "Identified employee endpoints requiring urgent security updates by joining employee, office, and machine data, then documented the patch status for remediation."
+        ]
+      },
+      "Linux-File-Permissions-Management": {
+        "title": "SOC Lab: Linux File Permissions & Access Control Remediation",
+        "meta": "Google Cybersecurity Labs · 2026",
+        "bullets": [
+          "Audited a Linux file system with ls -la, analyzing 10-character permission strings to establish a baseline of who could access what.",
+          "Remediated policy violations: revoked world-writable access (chmod o-w) to stop unauthorized modification and locked a hidden archive file read-only (chmod u-w,g-w) to preserve its integrity.",
+          "Isolated a restricted research directory to owner-only access (chmod u=rwx,g=,o=), containing access and preventing lateral movement across shared projects."
+        ]
+      },
+      "Incident-Handler-s-Journal-Ransomware-Outbreak": {
+        "title": "Incident Handler's Journal: Ransomware Outbreak",
+        "meta": "Incident response · 2026",
+        "bullets": [
+          "Step-by-step incident handler's journal for a simulated ransomware outbreak — documenting detection, containment, eradication, and recovery."
+        ]
+      },
+      "Python-Access-Control-Algorithm": {
+        "title": "Python Access Control Algorithm",
+        "meta": "Hands-on project",
+        "bullets": [
+          "Python implementation of an access-control algorithm enforcing role-based checks."
+        ]
+      },
+      "Cyberpulse": {
+        "title": "Cyberpulse — Security & Hacker News Bot",
+        "meta": "Python",
+        "bullets": [
+          "Bot that scrapes the internet for cybersecurity and hacker news."
+        ]
+      },
+      "Cyberkit": {
+        "title": "Cyberkit — Cybersecurity Utility Toolkit",
+        "meta": "Python",
+        "bullets": [
+          "Modular Python toolkit of cybersecurity utilities."
+        ]
+      },
+      "NIST-SP800-30-Risk-Analysis": {
+        "title": "NIST SP 800-30 Risk Analysis",
+        "meta": "Risk management",
+        "bullets": [
+          "Risk assessment mapped to the NIST SP 800-30 risk management framework."
+        ]
+      },
+      "NIST-CSF-DoS-Incident-Response": {
+        "title": "NIST CSF DoS Incident Response",
+        "meta": "Incident response",
+        "bullets": [
+          "Denial-of-Service incident response aligned to the NIST Cybersecurity Framework."
+        ]
+      }
+    }
+  }
+}
