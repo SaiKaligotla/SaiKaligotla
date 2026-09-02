@@ -105,7 +105,7 @@ _Skills vs. senior SOC Analyst benchmark — Me vs. Senior benchmark._
 
 ### 🚀 Projects
 
-_13 public repositories — populated automatically from GitHub._
+_11 public repositories — populated automatically from GitHub._
 
 #### [SOC Home Lab — Threat Simulation, Detection & Incident Response (Wazuh)](https://github.com/SaiKaligotla/SOC-Home-Lab-Wazuh) · <sub>Personal lab (VirtualBox: Kali + Ubuntu + Wazuh) · 2026</sub>
 - Architected a fully isolated 3-VM SOC lab on VirtualBox (32 GB / 8-core host): custom NAT network (10.0.2.0/24) with localhost-only port forwarding (127.0.0.1:8443 → 10.0.2.7:443) so the SIEM never touches the production network.
@@ -152,12 +152,6 @@ _13 public repositories — populated automatically from GitHub._
 
 #### [Python Access Control Algorithm](https://github.com/SaiKaligotla/Python-Access-Control-Algorithm) · <sub>Hands-on project</sub>
 - Python implementation of an access-control algorithm enforcing role-based checks.
-
-#### [Cyberpulse — Security & Hacker News Bot](https://github.com/SaiKaligotla/Cyberpulse) · <sub>Python</sub>
-- Bot that scrapes the internet for cybersecurity and hacker news.
-
-#### [Cyberkit — Cybersecurity Utility Toolkit](https://github.com/SaiKaligotla/Cyberkit) · <sub>Python</sub>
-- Modular Python toolkit of cybersecurity utilities.
 
 #### [NIST SP 800-30 Risk Analysis](https://github.com/SaiKaligotla/NIST-SP800-30-Risk-Analysis) · <sub>Risk management</sub>
 - Risk assessment mapped to the NIST SP 800-30 risk management framework.
