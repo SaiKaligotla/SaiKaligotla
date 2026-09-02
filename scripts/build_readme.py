@@ -56,10 +56,13 @@ def fetch_repos(username, exclude):
     if repos is None:
         return []
     out = []
+    # Never surface the profile repo itself (username/username) as a "project".
+    profile_repo = username.lower()
+    exclude = [e.lower() for e in exclude] + [profile_repo]
     for r in repos:
         if r.get("fork") or r.get("archived"):
             continue
-        if r["name"].lower() in [e.lower() for e in exclude]:
+        if r["name"].lower() in exclude:
             continue
         out.append({
             "name": r["name"],
