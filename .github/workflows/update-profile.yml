@@ -1,0 +1,52 @@
+name: Auto-update profile README
+
+# Keeps README.md in sync with resume.json AND your public GitHub repos.
+# Edit resume.json (projects, experience, skills, etc.) — or push a new repo —
+# and this regenerates and commits README.md automatically.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "resume.json"
+      - "scripts/**"
+  schedule:
+    - cron: "0 8 * * *"      # once a day, 08:00 UTC
+  workflow_dispatch:         # allow manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write            # needed to commit the regenerated README
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install generator dependencies (pyyaml/json only — none required)
+        run: echo "Using Python standard library only."
+
+      - name: Generate README.md from resume.json + GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # higher API rate limits
+        run: python3 scripts/build_readme.py
+
+      - name: Commit and push the regenerated README
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit — README is up to date."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: auto-update profile README from resume.json"
+          git push
